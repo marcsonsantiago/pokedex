@@ -1,0 +1,88 @@
+.header {
+  width: 100vw;
+  height: 360px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon {
+  margin-bottom: 0;
+}
+
+.pokemon .poke-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.poke-types {
+  display: flex;
+  gap: 8px;
+}
+
+.pokemon .poke-details img {
+  max-width: 100%;
+  height: 200px;
+  align-self: center;
+}
+
+.header .pokemon .number {
+  font-size: 1rem;
+  color: #fff;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.pokemon .details .types .type {
+  font-size: 1rem;
+}
+/* cor */
+.cor-1 {
+  color: rgb(20, 20, 20);
+}
+
+.cor-2 {
+  color: rgb(150, 150, 150);
+}
+
+/* status */
+
+.stats {
+  background-color: #fff;
+  margin: 0 ;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px -50px #fff;
+}
+
+.stats ul {
+  list-style: none;
+}
+
+.stats h3 {
+  padding: 0 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.menu-details {
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px 0;
+  margin-bottom: 30px;
+}
+
+.menu-details li {
+  align-self: center;
+}
